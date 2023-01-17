@@ -39,3 +39,12 @@
  .quote {
   color: grey
  }
+
+ .coach-answer {
+  font-weight: 700;
+ }
+
+ .container {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  padding: 6px;
+ }

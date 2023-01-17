@@ -1,21 +1,24 @@
 <%# <h3>this is the answer page</h3> %>
 
-<div class="bd question m-3 p-2">
- <div class="text">
-    <%= @question %>
- </div>
- <div class="quote">
-    -You
- </div>
-</div>
+<div class='container'>
 
-<div class="bd answer m-3 p-2">
-  <div class="text">
-    <%= @answer %>
+  <div class="bd question m-3 p-2">
+  <div class="">
+      <%= @question %>
   </div>
   <div class="quote">
-    -Your Coach
+      -You
   </div>
+  </div>
+
+  <div class="bd answer m-3 p-2">
+    <div class="coach-answer">
+      <%= @answer %>
+    </div>
+    <div class="quote">
+      -Your Coach
+    </div>
+</div>
 </div>
 
 <div class="p-3">
