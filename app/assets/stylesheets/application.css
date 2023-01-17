@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+
+ .coach {
+  color: rgb(111, 13, 135);
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Klee One', cursive;
+  font-family: 'Rowdies', cursive;
+ }
+
+ .question {
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Klee One', cursive;
+ }
+ .answer {
+  background-color: rgb(255, 255, 205);
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Klee One', cursive;
+ }
+
+ .bd {
+  border-left: 6px solid grey
+
+ }
+
+ .quote {
+  color: grey
+ }

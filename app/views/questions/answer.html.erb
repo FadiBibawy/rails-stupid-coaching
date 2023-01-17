@@ -1,0 +1,23 @@
+<%# <h3>this is the answer page</h3> %>
+
+<div class="bd question m-3 p-2">
+ <div class="text">
+    <%= @question %>
+ </div>
+ <div class="quote">
+    -You
+ </div>
+</div>
+
+<div class="bd answer m-3 p-2">
+  <div class="text">
+    <%= @answer %>
+  </div>
+  <div class="quote">
+    -Your Coach
+  </div>
+</div>
+
+<div class="p-3">
+  <%= link_to "Ask a new question", ask_path %>
+</div>
