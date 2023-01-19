@@ -6,12 +6,12 @@ class QuestionsController < ApplicationController
   def answer
     @question = params[:question].downcase
 
-    if (@question.include? 'to work') && ((@question.include? 'not') == false)
-      @answer = 'Great!'
-    elsif @question == ''
+    if @question == ''
       @answer = 'You asked nothing, Ask something!'
     elsif @question.include? '?'
       @answer = 'Silly question, get dressed and go to work!'
+    elsif (@question.include? 'to work') && ((@question.include? 'not') == false)
+      @answer = 'Great!'
     else
       @answer = "I don't care, get dressed and go to work!"
       # puts ["I don't care, get dressed and go to work!", "Silly question, get dressed and go to work!"].sample
